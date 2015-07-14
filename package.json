@@ -1,0 +1,30 @@
+{
+  "name": "sails-json-schema-request-validator",
+  "version": "1.0.0",
+  "description": "Validates a sails request against a json schema and serves a bad request on failure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CanTireInnovations/sails-json-schema-request-validator.git"
+  },
+  "keywords": [
+    "sails",
+    "json",
+    "schema",
+    "validation",
+    "request"
+  ],
+  "author": "CTI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CanTireInnovations/sails-json-schema-request-validator/issues"
+  },
+  "homepage": "https://github.com/CanTireInnovations/sails-json-schema-request-validator#readme",
+  "dependencies": {
+    "jsonschema": "^1.0.1",
+    "lodash": "^3.10.0"
+  }
+}
